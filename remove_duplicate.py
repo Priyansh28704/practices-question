@@ -10,7 +10,8 @@ def remove_duplicates(arr):
         
     return arr[:i+1]
 
-arr = [1,1,2,2,3,4,4,5]
+#arr = [1,1,2,2,3,4,4,5]
+arr = list(map(int,input("enter a duplicate array").split()))
 print(remove_duplicates(arr))
 
 

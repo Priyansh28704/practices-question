@@ -6,6 +6,7 @@ def move_zero_to_end(arr):
             non_zero_index += 1
     return arr
 
-arr = [1,0,2,0,3,4,5,0,6,0]
+#arr = [1,0,2,0,3,4,5,0,6,0]
+arr = list(map(int,input("enter array with zero:").split()))
 
 print(move_zero_to_end(arr))

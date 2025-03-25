@@ -14,7 +14,8 @@ def largest_element(arr):
     return first,second
 
 
-arr = [8,3,6,2,1,4,10]
+#arr = [8,3,6,2,1,4,10]
+arr = list(map(int,input("enter array").split()))
 first,second = largest_element(arr)
 print("largest:",first)
 print("second largest:",second)

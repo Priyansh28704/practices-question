@@ -5,4 +5,4 @@ def string_length(s):
         count += 1
     return count
 
-print(string_length("Priyanshu"))
+print(string_length("Priyansh"))
